@@ -1,0 +1,9 @@
+{
+  "name": "obsidian",
+  "description": "Obsidian笔记管理 - 考研笔记整理、知识库构建、双向链接管理",
+  "version": "1.0.0",
+  "enabled": true,
+  "created": "2026-03-10",
+  "author": "Jarvis",
+  "tags": ["obsidian", "notes", "kaoyan", "考研"]
+}

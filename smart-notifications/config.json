@@ -1,0 +1,95 @@
+{
+  "notification": {
+    "morning": {
+      "enabled": true,
+      "time_range": [
+        "07:00",
+        "08:00"
+      ],
+      "components": [
+        "weather",
+        "schedule",
+        "breakfast"
+      ]
+    },
+    "noon": {
+      "enabled": true,
+      "time_range": [
+        "11:30",
+        "12:00"
+      ],
+      "components": [
+        "lunch",
+        "political_news"
+      ]
+    },
+    "evening": {
+      "enabled": true,
+      "time_range": [
+        "17:00",
+        "17:30"
+      ],
+      "components": [
+        "exercise",
+        "dinner"
+      ]
+    },
+    "night": {
+      "enabled": true,
+      "time_range": [
+        "22:00",
+        "24:00"
+      ],
+      "components": [
+        "health_report",
+        "review"
+      ]
+    }
+  },
+  "dnd": {
+    "enabled": true,
+    "study_hours": {
+      "morning": [
+        "08:00",
+        "12:00"
+      ],
+      "afternoon": [
+        "14:00",
+        "18:00"
+      ],
+      "evening": [
+        "19:00",
+        "22:00"
+      ]
+    },
+    "detect_study_apps": true,
+    "delay_rules": {
+      "urgent": 0,
+      "important": 15,
+      "normal": 30
+    }
+  },
+  "priority": {
+    "keywords_urgent": [
+      "紧急",
+      "考试",
+      "突变",
+      "警告",
+      "警告",
+      "critical"
+    ],
+    "keywords_important": [
+      "提醒",
+      "任务",
+      "计划",
+      "重要",
+      "important"
+    ],
+    "keywords_normal": [
+      "汇总",
+      "日常",
+      "更新",
+      "normal"
+    ]
+  }
+}
